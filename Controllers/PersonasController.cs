@@ -19,12 +19,16 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Personas
+        [HttpGet]
+        [Route("/Personas")]
         public async Task<IActionResult> Index()
         {
               return View(await _context.Personas.ToListAsync());
         }
 
         // GET: Personas/Details/5
+        [HttpGet]
+        [Route("/Personas/Details/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Personas == null)
@@ -43,6 +47,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Personas/Create
+        [HttpGet]
+        [Route("/Personas/Create")]
         public IActionResult Create()
         {
             return View();
@@ -65,6 +71,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Personas/Edit/5
+        [HttpGet]
+        [Route("/Personas/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Personas == null)
@@ -84,6 +92,7 @@ namespace personapi_dotnet.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Route("/Personas/Edit/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Cc,Nombre,Apellido,Genero,Edad")] Persona persona)
         {
@@ -116,6 +125,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Personas/Delete/5
+        [HttpGet]
+        [Route("/Personas/Delete/{id}")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Personas == null)
@@ -135,6 +146,7 @@ namespace personapi_dotnet.Controllers
 
         // POST: Personas/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Route("/Personas/Delete/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

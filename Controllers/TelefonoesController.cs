@@ -19,6 +19,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Telefonoes
+        [HttpGet]
+        [Route("/Telefonoes")]
         public async Task<IActionResult> Index()
         {
             var dbContext = _context.Telefonos.Include(t => t.DuenioNavigation);
@@ -26,6 +28,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Telefonoes/Details/5
+        [HttpGet]
+        [Route("/Telefonoes/Details/{id}")]
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.Telefonos == null)
@@ -45,6 +49,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Telefonoes/Create
+        [HttpGet]
+        [Route("/Telefonoes/Create")]
         public IActionResult Create()
         {
             ViewData["Duenio"] = new SelectList(_context.Personas, "Cc", "Cc");
@@ -55,6 +61,7 @@ namespace personapi_dotnet.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Route("/Telefonoes/Create")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Num,Operador,Duenio")] Telefono telefono)
         {
@@ -69,6 +76,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Telefonoes/Edit/5
+        [HttpGet]
+        [Route("/Telefonoes/Edit/5")]
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null || _context.Telefonos == null)
@@ -89,6 +98,7 @@ namespace personapi_dotnet.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Route("/Telefonoes/Edit/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, [Bind("Num,Operador,Duenio")] Telefono telefono)
         {
@@ -122,6 +132,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Telefonoes/Delete/5
+        [HttpGet]
+        [Route("/Telefonoes/Delete/{id}")]
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.Telefonos == null)
@@ -142,6 +154,7 @@ namespace personapi_dotnet.Controllers
 
         // POST: Telefonoes/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Route("/Telefonoes/Delete/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {

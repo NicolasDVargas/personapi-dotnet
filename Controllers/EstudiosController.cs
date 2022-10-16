@@ -19,6 +19,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Estudios
+        [HttpGet]
+        [Route("/Estudios")]
         public async Task<IActionResult> Index()
         {
             var dbContext = _context.Estudios.Include(e => e.CcPerNavigation).Include(e => e.IdProfNavigation);
@@ -26,6 +28,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Estudios/Details/5
+        [HttpGet]
+        [Route("/Estudios/Details/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Estudios == null)
@@ -46,6 +50,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Estudios/Create
+        [HttpGet]
+        [Route("/Estudios/Create")]
         public IActionResult Create()
         {
             ViewData["CcPer"] = new SelectList(_context.Personas, "Cc", "Cc");
@@ -57,6 +63,7 @@ namespace personapi_dotnet.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Route("/Estudios/Create")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdProf,CcPer,Fecha,Universidad")] Estudio estudio)
         {
@@ -72,6 +79,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Estudios/Edit/5
+        [HttpGet]
+        [Route("/Estudios/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Estudios == null)
@@ -93,6 +102,7 @@ namespace personapi_dotnet.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Route("/Estudios/Edit/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("IdProf,CcPer,Fecha,Universidad")] Estudio estudio)
         {
@@ -148,6 +158,7 @@ namespace personapi_dotnet.Controllers
 
         // POST: Estudios/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Route("/Estudios/Delete/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

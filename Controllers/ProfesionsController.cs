@@ -19,12 +19,16 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Profesions
+        [HttpGet]
+        [Route("/Profesions")]
         public async Task<IActionResult> Index()
         {
               return View(await _context.Profesions.ToListAsync());
         }
 
         // GET: Profesions/Details/5
+        [HttpGet]
+        [Route("/Profesions/Details/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Profesions == null)
@@ -43,6 +47,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Profesions/Create
+        [HttpGet]
+        [Route("/Profesions/Create")]
         public IActionResult Create()
         {
             return View();
@@ -52,6 +58,7 @@ namespace personapi_dotnet.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Route("/Profesions/Create")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nom,Des")] Profesion profesion)
         {
@@ -65,6 +72,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Profesions/Edit/5
+        [HttpGet]
+        [Route("/Profesions/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Profesions == null)
@@ -84,6 +93,7 @@ namespace personapi_dotnet.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Route("/Profesions/Edit/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nom,Des")] Profesion profesion)
         {
@@ -116,6 +126,8 @@ namespace personapi_dotnet.Controllers
         }
 
         // GET: Profesions/Delete/5
+        [HttpGet]
+        [Route("/Profesions/Delete/5")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Profesions == null)
@@ -135,6 +147,7 @@ namespace personapi_dotnet.Controllers
 
         // POST: Profesions/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Route("/Profesions/Delete/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

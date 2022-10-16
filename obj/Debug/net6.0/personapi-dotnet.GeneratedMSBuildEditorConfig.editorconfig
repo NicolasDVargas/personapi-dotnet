@@ -8,117 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = personapi_dotnet
 build_property.RootNamespace = personapi_dotnet
-build_property.ProjectDir = D:\Universidad\Git\personapi-dotnet\
+build_property.ProjectDir = C:\Users\jcami\source\repos\personapi-dotnet\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Universidad\Git\personapi-dotnet
+build_property.MSBuildProjectDirectory = C:\Users\jcami\source\repos\personapi-dotnet
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Estudios/Create.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Estudios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Estudios/Delete.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Estudios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Estudios/Details.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Estudios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Estudios/Edit.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Estudios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Estudios/Index.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Estudios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Home/Index.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Home/Privacy.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Personas/Create.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Personas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Personas/Delete.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Personas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Personas/Details.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Personas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Personas/Edit.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Personas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Personas/Index.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Personas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Profesions/Create.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Profesions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Profesions/Delete.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Profesions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Profesions/Details.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Profesions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Profesions/Edit.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Profesions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Profesions/Index.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Profesions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Shared/Error.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Telefonoes/Create.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Telefonoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVsZWZvbm9lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Telefonoes/Delete.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Telefonoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVsZWZvbm9lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Telefonoes/Details.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Telefonoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVsZWZvbm9lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Telefonoes/Edit.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Telefonoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVsZWZvbm9lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Telefonoes/Index.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Telefonoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVsZWZvbm9lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/_ViewImports.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/_ViewStart.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Git/personapi-dotnet/Views/Shared/_Layout.cshtml]
+[C:/Users/jcami/source/repos/personapi-dotnet/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8xpzuv8i67
