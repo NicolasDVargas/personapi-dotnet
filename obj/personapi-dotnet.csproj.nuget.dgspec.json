@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Universidad\\arqui\\personapi-dotnet\\personapi-dotnet.csproj": {}
+    "D:\\Universidad\\Git\\personapi-dotnet\\personapi-dotnet.csproj": {}
   },
   "projects": {
-    "D:\\Universidad\\arqui\\personapi-dotnet\\personapi-dotnet.csproj": {
+    "D:\\Universidad\\Git\\personapi-dotnet\\personapi-dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\arqui\\personapi-dotnet\\personapi-dotnet.csproj",
+        "projectUniqueName": "D:\\Universidad\\Git\\personapi-dotnet\\personapi-dotnet.csproj",
         "projectName": "personapi-dotnet",
-        "projectPath": "D:\\Universidad\\arqui\\personapi-dotnet\\personapi-dotnet.csproj",
+        "projectPath": "D:\\Universidad\\Git\\personapi-dotnet\\personapi-dotnet.csproj",
         "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad\\arqui\\personapi-dotnet\\obj\\",
+        "outputPath": "D:\\Universidad\\Git\\personapi-dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.10, )"
             }

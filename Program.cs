@@ -1,7 +1,11 @@
+using personapi_dotnet.Models.Entities;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<dbContext>();
 
 var app = builder.Build();
 
